@@ -46,13 +46,5 @@ As I continue learning, I'll keep improving the project by adding authentication
 
 I'm actively developing this project while learning React and TypeScript.
 
-## 🌐 resumeforge View
 
-## 👨‍💻 Author
-
-**Lungile Phakathi**
-
-
-
-[![resumeforge](https://img.shields.io/badge/View-My_resumeforge-blue?style=for-the-badge&logo=github)](https://lungiphakz.github.io/resume-forge/)
 
