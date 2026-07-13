@@ -1,73 +1,58 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📄 ResumeForge
 
-Currently, two official plugins are available:
+ResumeForge is a modern CV/Resume Builder that I'm building to learn and improve my frontend development skills using React, TypeScript, and Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The project allows users to create professional, ATS-friendly resumes with multiple templates and export them as PDF documents.
 
-## React Compiler
+## 🚀 Why I Built This
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project is part of my learning journey to gain hands-on experience with:
 
-## Expanding the ESLint configuration
+- React
+- TypeScript
+- Tailwind CSS
+- Vite
+- Component-based architecture
+- State management
+- Responsive UI Design
+- PDF generation
+- Modern frontend development practices
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+As I continue learning, I'll keep improving the project by adding authentication, database integration, more templates, and additional features.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## ✨ Features
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- Modern landing page
+- ATS-friendly CV templates
+- Live CV preview
+- Multiple resume templates
+- Responsive design
+- PDF export 
+- Dark modern UI
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🛠️ Tech Stack
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Lucide React
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📌 Project Status
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+🚧 Work in Progress
+
+I'm actively developing this project while learning React and TypeScript.
+
+## 🌐 resumeforge View
+
+## 👨‍💻 Author
+
+**Lungile Phakathi**
+
+
+
+[![resumeforge](https://img.shields.io/badge/View-My_resumeforge-blue?style=for-the-badge&logo=github)](https://lungiphakz.github.io/resume-forge/)
+
